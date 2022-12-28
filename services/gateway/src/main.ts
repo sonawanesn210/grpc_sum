@@ -20,8 +20,7 @@ async function bootstrap() {
     },
   );
 
-  await app.listen(() => {
-    console.log('Gateway service has started');
-  });
+  await app.listen();
+  console.log('Gateway service has started');
 }
 bootstrap();

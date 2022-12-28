@@ -17,8 +17,7 @@ async function bootstrap() {
     },
   );
 
-  await app.listen(() => {
-    console.log('Summator service has started');
-  });
+  await app.listen();
+  console.log('Summator service has started');
 }
 bootstrap();
